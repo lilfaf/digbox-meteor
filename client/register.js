@@ -1,5 +1,5 @@
 Template.register.onRendered(function () {
-  AutoForm.resetForm('registerForm');
+  AutoForm.resetForm('register-form');
 });
 
 Template.register.events({
