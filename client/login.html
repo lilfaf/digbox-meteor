@@ -1,8 +1,8 @@
 <template name="login">
   <div class="row">
     <div class="col-md-6 col-md-offset-3">
-      {{> flashMessages}}
-      <form class="login-form">
+      <form id="login-form">
+        {{> flashMessages}}
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3>Login</h3>
@@ -18,7 +18,7 @@
             </div>
           </div>
           <div class="panel-footer">
-            <button type="submit" class="btn btn-primary">Login</button>
+            <button type="submit" class="btn btn-digbox">Login</button>
             <!-- <button  class="btn btn-primary btn-facebook">Facebook Login</button> -->
           </div>
         </div>

@@ -3,7 +3,7 @@ Template.register.onRendered(function () {
 });
 
 Template.register.events({
-  'submit #registerForm': function (event, template) {
+  'submit #register-form': function (event, template) {
     event.preventDefault();
 
     var username = event.target.username.value;

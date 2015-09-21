@@ -1,8 +1,8 @@
 <template name="register">
   <div class="row">
     <div class="col-md-6 col-md-offset-3">
-      {{> flashMessages}}
-      {{#autoForm schema="Schema.createUserFormSchema" id="registerForm"}}
+      {{#autoForm schema="Schema.createUserFormSchema" id="register-form"}}
+        {{> flashMessages}}
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3>Registration</h3>
@@ -14,7 +14,7 @@
             {{> afQuickField name="passwordConfirmation"}}
           </div>
           <div class="panel-footer">
-            <button type="submit" class="btn btn-primary">Register</button>
+            <button type="submit" class="btn btn-digbox">Register</button>
           </div>
         </div>
       {{/autoForm}}

@@ -1,5 +1,5 @@
 Template.login.events({
-  'submit .login-form': function (event) {
+  'submit #login-form': function (event) {
     event.preventDefault();
 
     var email = event.target.email.value;

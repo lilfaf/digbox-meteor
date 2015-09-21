@@ -1,0 +1,13 @@
+@import '.meteor/local/build/programs/server/assets/packages/reywood_bootstrap3-sass/bootstrap';
+
+body {
+  margin-top: 60px;
+}
+
+#login-form, #register-form {
+  margin-top: 20px;
+}
+
+.btn-digbox {
+  @extend .btn-warning;
+}
