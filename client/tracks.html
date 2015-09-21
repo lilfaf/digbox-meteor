@@ -1,0 +1,9 @@
+<template name="tracks">
+  {{#if Template.subscriptionsReady}}
+    {{#each tracks}}
+      <h4>{{title}}</h4>
+    {{/each }}
+  {{else}}
+    <p>Loading...</p>
+  {{/if}}
+</template>
